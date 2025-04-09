@@ -48,20 +48,19 @@ The primary goal of this project is to showcase a basic end-to-end workflow for 
 * **Container Registry:** Docker Hub
 
 ## Project Structure
-Use code with caution.
-Markdown
-.
-├── .github/workflows/ # GitHub Actions workflow definitions
-│ └── ci-pipeline.yml # Workflow for building and pushing Docker image
-├── .dockerignore # Specifies files/dirs to ignore during Docker build
-├── .gitignore # Specifies intentionally untracked files for Git
-├── Dockerfile # Instructions to build the Docker image
-├── README.md # This documentation file
-├── app.py # Flask application code for the API endpoint
-├── data.csv # Simple dataset for training
-├── requirements.txt # Python dependencies
-├── sentiment_model.joblib # Saved (pre-trained) model file
-└── train.py # Python script to train the model
+
+.github/workflows/         # GitHub Actions workflow definitions  
+.github/workflows/ci-pipeline.yml  # Workflow for building and pushing Docker image  
+.dockerignore              # Specifies files/dirs to ignore during Docker build  
+.gitignore                 # Specifies intentionally untracked files for Git  
+Dockerfile                 # Instructions to build the Docker image  
+README.md                  # This documentation file  
+app.py                     # Flask application code for the API endpoint  
+data.csv                   # Simple dataset for training  
+requirements.txt           # Python dependencies  
+sentiment_model.joblib     # Saved (pre-trained) model file  
+train.py                   # Python script to train the model  
+
 
 ## 📦 Cloning the Repository
 

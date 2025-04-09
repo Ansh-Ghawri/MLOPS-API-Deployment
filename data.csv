@@ -1,0 +1,7 @@
+text,sentiment
+"this is a great movie",positive
+"i really enjoyed this film",positive
+"what a fantastic experience",positive
+"terrible acting",negative
+"i hated this book",negative
+"worst day ever",negative
